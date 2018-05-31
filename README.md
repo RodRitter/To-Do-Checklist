@@ -1,15 +1,20 @@
 # To-Do Application
 <img src="http://projects.ritter.co.za/storage/mockup.png" width="980">
 
-## Dependencies
-This application uses a Vagrant virtual environment to run a CRUD server
-
-- Vagrant
-- Virtualbox (Vagrant needs this)
+## Structure
+- `[static]` - Holds styles & scripts
+- `[templates]` - Holds all html views
+- `server.py` - The script that runs the server & handles CRUD routing
+- `db_setup` - Initial setup of database & table if required
 
 ## Install & Usage
 Installation for a local environment using `Vagrant`
 
+### Dependencies
+- Vagrant
+- Virtualbox (Vagrant needs this)
+
+### Installation
 First make sure you're in the project root
 
 - `$ vagrant up` - Install the virtual environent. This might take a little while
