@@ -11,13 +11,13 @@ Installation for a local environment using `Vagrant`
 
 First make sure you're in the project root
 
-`$ vagrant up` - This might take a little while
+- `$ vagrant up` - This might take a little while
 
-`$ vagrant ssh` - This will log you into the virtual environment
+- `$ vagrant ssh` - This will log you into the virtual environment
 
-`$ vagrant@machine: cd /vagrant` - Takes you to the synced folder with project files
+- `$ vagrant@machine: cd /vagrant` - Takes you to the synced folder with project files
 
-`$ python3 server.py` - run the server.
+- `$ python3 server.py` - run the server.
 
 You can no navigate to `localhost:5000`
 
