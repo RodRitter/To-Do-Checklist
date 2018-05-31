@@ -18,14 +18,14 @@ First make sure you're in the project root
 
 You can now navigate to `localhost:8080`
 
-## Server
-- `db_setup.py` - This will do some intial setup for the database
-- `server.py` - Local server to handle CRUD routing
-
 ### API Endpoints
 - `/todo/` - [GET] Will return all todo items
 - `/todo/delete/<id>` - [POST] Will delete an item with ID
 - `/todo/<id>` - [POST] Will update an items details
+
+## Server
+- `db_setup.py` - This will do some intial setup for the database
+- `server.py` - Local server to handle CRUD routing
 
 ## Tech Stack
 ### Backend
