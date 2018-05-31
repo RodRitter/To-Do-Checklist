@@ -1,4 +1,5 @@
 # To-Do Application
+<img src="http://projects.ritter.co.za/storage/mockup.png" width="980">
 
 ## Dependencies
 This application uses a Vagrant virtual environment to run a CRUD server
