@@ -5,7 +5,7 @@
 - `[static]` - Holds styles & scripts
 - `[templates]` - Holds all html views
 - `server.py` - The script that runs the server & handles CRUD routing
-- `db_setup` - Initial setup of database & table if required
+- `db_setup.py` - Initial setup of database & table if required
 
 ## Install & Usage
 Installation for a local environment using `Vagrant`
