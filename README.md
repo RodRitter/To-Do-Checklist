@@ -2,6 +2,8 @@
 <img src="http://projects.ritter.co.za/storage/mockup.png" width="980">
 
 ## Structure
+`Backend` - Python webserver using the Flask framework to handle CRUD routing 
+
 - `[static]` - Holds styles & scripts
 - `[templates]` - Holds all html views
 - `server.py` - The script that runs the server & handles CRUD routing
