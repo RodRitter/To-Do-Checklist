@@ -16,7 +16,7 @@ First make sure you're in the project root
 - `$ vagrant@machine: cd /vagrant` - Takes you to the synced folder with project files
 - `$ vagrant@machine: python3 server.py` - run the server.
 
-You can now navigate to `localhost:5000`
+You can now navigate to `localhost:8080`
 
 ## Server
 - `db_setup.py` - This will do some intial setup for the database
