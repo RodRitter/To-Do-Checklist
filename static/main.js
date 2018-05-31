@@ -84,7 +84,6 @@ function createTodoElement(id, text, checked) {
         var id = checkBtn.attr('data-todoId');
         let hasClass = checkBtn.parent().hasClass('checked');
 
-        console.log(hasClass)
         if(hasClass) {
             checkTodo(id, false);
         } else {
