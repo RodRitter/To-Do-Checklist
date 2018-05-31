@@ -21,8 +21,8 @@ First make sure you're in the project root
 
 - `$ vagrant up` - Install the virtual environent. This might take a little while
 - `$ vagrant ssh` - This will log you into the virtual environment
-- `$ vagrant@machine: cd /vagrant` - Takes you to the synced folder with project files
-- `$ vagrant@machine: python3 server.py` - run the server.
+- `vagrant@machine:$ cd /vagrant` - Takes you to the synced folder with project files
+- `vagrant@machine:$ python3 server.py` - run the server.
 
 You can now navigate to `localhost:5555`
 
