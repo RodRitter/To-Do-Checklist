@@ -23,14 +23,9 @@ You can now navigate to `localhost:8080`
 - `server.py` - Local server to handle CRUD routing
 
 ### API Endpoints
-`/todo/`
-- [GET] Will return all todo items
-
-`/todo/delete/<id>`
-- [POST] Will delete an item with ID
-
-`/todo/<id>`
-- [POST] Will update an items details
+- `/todo/` - [GET] Will return all todo items
+- `/todo/delete/<id>` - [POST] Will delete an item with ID
+- `/todo/<id>` - [POST] Will update an items details
 
 ## Tech Stack
 ### Backend
