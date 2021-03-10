@@ -5,7 +5,7 @@ from flask import Flask, render_template, request, jsonify
 app = Flask(__name__)
 conn = None
 c = None
-
+ 
 
 @app.route("/")
 def todo():
